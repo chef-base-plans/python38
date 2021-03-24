@@ -40,8 +40,8 @@ pkg_build_deps=(
 )
 
 do_prepare() {
-  sed -i.bak 's/#zlib/zlib/' Modules/Setup.dist
-  sed -i -re "/(SSL=|_ssl|-DUSE_SSL|-lssl).*/ s|^#||" Modules/Setup.dist
+  sed -i.bak 's/#zlib/zlib/' Modules/Setup
+  sed -i -re "/(SSL=|_ssl|-DUSE_SSL|-lssl).*/ s|^#||" Modules/Setup
 }
 
 do_build() {

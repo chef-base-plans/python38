@@ -1,4 +1,4 @@
-plan_name : "python37"
+plan_name : "python38"
 
 allow_list :
   - "python3"
