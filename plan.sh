@@ -53,7 +53,6 @@ do_build() {
               --enable-loadable-sqlite-extensions \
               --enable-shared \
               --with-system-expat \
-              --with-system-ffi \
               --with-ensurepip
 
   make
