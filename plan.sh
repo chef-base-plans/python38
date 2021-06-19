@@ -55,8 +55,8 @@ do_build() {
               --enable-loadable-sqlite-extensions \
               --enable-shared \
               --with-system-expat \
-              --with-ensurepip
-
+              --with-ensurepip \
+              --with-openssl="$(pkg_path_for openssl)"
   make
 }
 
